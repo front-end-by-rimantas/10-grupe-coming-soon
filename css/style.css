@@ -13,7 +13,32 @@ body * {
     background-color: #03A9F5;
     padding-bottom: 20px;
     padding-top: 60px;
+    text-align: center;
 }
+    .hero img {
+        display: inline-block;
+    }
+    .hero h1 {
+        display: inline-block;
+        width: 100%;
+        font-size: 70px;
+        text-transform: uppercase;
+    }
+    .hero p {
+        display: inline-block;
+        width: 100%;
+    }
+    .hero .clock {
+        display: inline-block;
+        width: 100%;
+    }
+    .hero form {
+        display: inline-block;
+        width: 90%;
+    }
+    .hero .mouse {
+        display: inline-block;
+    }
 
 .main-content {
     display: inline-block;
@@ -34,14 +59,13 @@ footer {
 .small-container {
     display: inline-block;
     width: 700px;
-    margin-left: calc( (100% - 700px) / 2 );
-    background-color: red;
+    margin: 0 calc( (100% - 700px) / 2 );
 }
 
 .container {
     display: inline-block;
     width: 1200px;
-    margin-left: calc( (100% - 1200px) / 2 );
+    margin: 0 calc( (100% - 1200px) / 2 );
 }
     .container > .left {
         display: inline-block;
@@ -60,14 +84,14 @@ footer {
 @media (max-width: 1300px) {
     .container {
         width: 900px;
-        margin-left: calc( (100% - 900px) / 2 );
+        margin: 0 calc( (100% - 900px) / 2 );
     }
 }
 
 @media (max-width: 1000px) {
     .container {
         width: 700px;
-        margin-left: calc( (100% - 700px) / 2 );
+        margin: 0 calc( (100% - 700px) / 2 );
     }
     .container > .left {
         width: 100%;
@@ -82,12 +106,12 @@ footer {
 @media (max-width: 800px) {
     .small-container {
         width: 500px;
-        margin-left: calc( (100% - 500px) / 2 );
+        margin: 0 calc( (100% - 500px) / 2 );
         background-color: lime;
     }
     .container {
         width: 500px;
-        margin-left: calc( (100% - 500px) / 2 );
+        margin: 0 calc( (100% - 500px) / 2 );
     }
 }
 
