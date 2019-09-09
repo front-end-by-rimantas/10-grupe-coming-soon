@@ -68,6 +68,7 @@ body * {
     .main-content p {
         display: inline-block;
         width: 100%;
+        margin-bottom: 20px;
         font-size: 15px;
         line-height: 25px;
     }
